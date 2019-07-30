@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="BookstoreApp">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Oclazyload - ES6</title>
+      <link rel="icon" type="image/x-icon" href="http://images-fav.surge.sh/img/favicon.ico">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <base id="base-app" href="/">
+      <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"></script> -->
+  </head>
+  <body id="top">
+      <navbar></navbar>
+
+      <div id="wrap-container" class="container">
+            <ng-view></ng-view>
+      </div>
+
+      <app-footer></app-footer>
+  </body>
+</html>
